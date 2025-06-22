@@ -10,7 +10,7 @@ const Section3 = () => {
         <div className="flex">
           <div className="w-2/4">
             <div className="pl-[150px]">
-              <h3 className='text-[18px] lg:text-[64px] font-bold font-pops' >Our Services</h3>
+              <h3 className='text-[64px] font-bold font-pops' >Our Services</h3>
               <p className='text-justify font-pops text-[16px]'>It is a long established fact that a reader will be <br /> distracted by the readable content of a page <br /> when looking at its layout.</p>
             </div>
 
