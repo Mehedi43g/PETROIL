@@ -18,10 +18,9 @@ const Navber = () => {
             <img src={logo} alt="" />
           </div>
           <div className="w-2/3">
-            <ul className={`justify-end items-center transition-all duration-500 ease-in-out
-    ${show ? 'top-[140px] opacity-100' : 'top-[-300px] opacity-0'} 
-    absolute left-0 w-full z-30 bg-green-400 
-    lg:static lg:flex lg:w-auto lg:opacity-100 lg:top-auto lg:bg-transparent`}>
+            <ul className={`justify-end items-center transition-all duration-500 ease-in-out ${show 
+              ? 'top-[140px] opacity-100' 
+              : 'top-[-300px] opacity-0'} absolute left-0 w-full z-30 bg-green-400 lg:static lg:flex lg:w-auto lg:opacity-100 lg:top-auto lg:bg-transparent`}>
 
               {/* {`justify-end items-center transition-all duration-500 ease-in-out
     ${show ? 'top-[140px] opacity-100' : 'top-[-300px] opacity-0'} 

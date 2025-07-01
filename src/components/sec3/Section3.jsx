@@ -1,12 +1,9 @@
-import React from 'react'
-import Container from '../HEADING/Container'
 import bg1 from "../../assets/bg1.png"
 import bg2 from "../../assets/bg2.png"
 import bg3 from "../../assets/bg3.png"
 const Section3 = () => {
   return (
     <div className='pb-[100px]'>
-      <Container>
         <div className="flex">
           <div className="w-2/4">
             <div className="pl-[150px]">
@@ -66,7 +63,7 @@ const Section3 = () => {
             </div>
           </div>
         </div>
-      </Container>
+     
     </div>
   )
 }
